@@ -1,0 +1,15 @@
+{
+  "name": "microservice-demo-nest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm --prefix task run lint && npm --prefix user run lint && npm --prefix token run lint && npm --prefix gateway run lint && npm --prefix mailer run lint && npm --prefix permission run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oguzhankarahan/microservice-demo-nest.git"
+  },
+  "author": "Oguzhan Karahan",
+  "license": "ISC"
+}
